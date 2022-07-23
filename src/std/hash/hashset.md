@@ -32,7 +32,7 @@ get all the elements that are in one set or the other, but *not* both.
 
 Try all of these in the following example:
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 use std::collections::HashSet;
 
 fn main() {

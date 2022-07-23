@@ -10,7 +10,7 @@ clear which trait's `get` method you're implementing.
 What about when it comes time to _call_ those methods? To disambiguate between
 them, we have to use Fully Qualified Syntax.
 
-```rust,editable
+```rust
 trait UsernameWidget {
     // Get the selected username out of this widget
     fn get(&self) -> String;

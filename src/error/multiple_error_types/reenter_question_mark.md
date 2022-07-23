@@ -4,7 +4,7 @@ Notice in the previous example that our immediate reaction to calling
 `parse` is to `map` the error from a library error into a boxed
 error:
 
-```rust,ignore
+```rust
 .and_then(|s| s.parse::<i32>()
     .map_err(|e| e.into())
 ```
@@ -22,7 +22,7 @@ convertible to the return type, it will convert automatically.
 Here, we rewrite the previous example using `?`. As a result, the
 `map_err` will go away when `From::from` is implemented for our error type:
 
-```rust,editable
+```rust
 use std::error;
 use std::fmt;
 

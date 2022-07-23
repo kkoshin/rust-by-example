@@ -9,7 +9,7 @@ notation `a..b`. This yields values from `a` (inclusive) to `b`
 
 Let's write FizzBuzz using `for` instead of `while`.
 
-```rust,editable
+```rust
 fn main() {
     // `n` will take the values: 1, 2, ..., 100 in each iteration
     for n in 1..101 {
@@ -29,7 +29,7 @@ fn main() {
 Alternatively, `a..=b` can be used for a range that is inclusive on both ends.
 The above can be written as:
 
-```rust,editable
+```rust
 fn main() {
     // `n` will take the values: 1, 2, ..., 100 in each iteration
     for n in 1..=100 {
@@ -60,7 +60,7 @@ within.
 * `iter` - This borrows each element of the collection through each iteration.
   Thus leaving the collection untouched and available for reuse after the loop.
 
-```rust,editable
+```rust
 fn main() {
     let names = vec!["Bob", "Frank", "Ferris"];
 
@@ -80,7 +80,7 @@ fn main() {
   data is provided. Once the collection has been consumed it is no longer
   available for reuse as it has been 'moved' within the loop.
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     let names = vec!["Bob", "Frank", "Ferris"];
 
@@ -99,7 +99,7 @@ fn main() {
 * `iter_mut` - This mutably borrows each element of the collection, allowing for
   the collection to be modified in place.
 
-```rust,editable
+```rust
 fn main() {
     let mut names = vec!["Bob", "Frank", "Ferris"];
 

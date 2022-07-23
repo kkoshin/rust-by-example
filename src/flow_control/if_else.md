@@ -5,7 +5,7 @@ the boolean condition doesn't need to be surrounded by parentheses, and each
 condition is followed by a block. `if`-`else` conditionals are expressions,
 and, all branches must return the same type.
 
-```rust,editable
+```rust
 fn main() {
     let n = 5;
 

@@ -3,7 +3,7 @@
 Rust doesn't have "inheritance", but you can define a trait as being a superset
 of another trait. For example:
 
-```rust,editable
+```rust
 trait Person {
     fn name(&self) -> String;
 }

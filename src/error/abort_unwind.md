@@ -5,7 +5,7 @@ The previous section illustrates the error handling mechanism `panic`.  Differen
 
 Building on the prior lemonade example, we explicitly use the panic strategy to exercise different lines of code.  
 
-```rust,editable,mdbook-runnable
+```rust
 
 fn drink(beverage: &str) {
    // You shouldn't drink too much sugary beverages.
@@ -24,7 +24,7 @@ fn main() {
 
 Here is another example focusing on rewriting `drink()` and explicitly use the `unwind` keyword.
 
-```rust,editable
+```rust
 
 #[cfg(panic = "unwind")]
 fn ah(){ println!("Spit it out!!!!");}

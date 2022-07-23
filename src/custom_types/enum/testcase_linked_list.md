@@ -2,7 +2,7 @@
 
 A common way to implement a linked-list is via `enums`:
 
-```rust,editable
+```rust
 use crate::List::*;
 
 enum List {

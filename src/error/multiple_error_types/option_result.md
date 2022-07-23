@@ -3,7 +3,7 @@
 The most basic way of handling mixed error types is to just embed them in each
 other.
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 fn double_first(vec: Vec<&str>) -> Option<Result<i32, ParseIntError>> {
@@ -31,7 +31,7 @@ There are times when we'll want to stop processing on errors (like with
 [`?`][enter_question_mark]) but keep going when the `Option` is `None`. A
 couple of combinators come in handy to swap the `Result` and `Option`.
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 fn double_first(vec: Vec<&str>) -> Result<Option<i32>, ParseIntError> {

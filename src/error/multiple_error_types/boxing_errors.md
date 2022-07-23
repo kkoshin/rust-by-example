@@ -8,7 +8,7 @@ The stdlib helps in boxing our errors by having `Box` implement conversion from
 any type that implements the `Error` trait into the trait object `Box<Error>`,
 via [`From`][from].
 
-```rust,editable
+```rust
 use std::error;
 use std::fmt;
 

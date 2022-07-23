@@ -11,7 +11,7 @@ a few different varieties:
    * `/// Generate library docs for the following item.`
    * `//! Generate library docs for the enclosing item.`
 
-```rust,editable
+```rust
 fn main() {
     // This is an example of a line comment
     // There are two slashes at the beginning of the line

@@ -2,7 +2,7 @@
 
 Annotation of lifetimes in structures are also similar to functions:
 
-```rust,editable
+```rust
 // A type `Borrowed` which houses a reference to an
 // `i32`. The reference to `i32` must outlive `Borrowed`.
 #[derive(Debug)]

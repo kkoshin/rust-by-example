@@ -5,7 +5,7 @@ about functions. And indeed they can! If you declare a function that takes a
 closure as parameter, then any function that satisfies the trait bound of that
 closure can be passed as a parameter.
 
-```rust,editable
+```rust
 // Define a function which takes a generic `F` argument
 // bounded by `Fn`, and calls it
 fn call_me<F: Fn()>(f: F) {

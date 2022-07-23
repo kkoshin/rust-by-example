@@ -6,7 +6,7 @@ The `break` statement can be used to exit a loop at anytime, whereas the
 `continue` statement can be used to skip the rest of the iteration and start a
 new one.
 
-```rust,editable
+```rust
 fn main() {
     let mut count = 0u32;
 

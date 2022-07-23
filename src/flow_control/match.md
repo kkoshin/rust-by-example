@@ -4,7 +4,7 @@ Rust provides pattern matching via the `match` keyword, which can be used like
 a C `switch`. The first matching arm is evaluated and all possible values must be
 covered.
 
-```rust,editable
+```rust
 fn main() {
     let number = 13;
     // TODO ^ Try different values for `number`

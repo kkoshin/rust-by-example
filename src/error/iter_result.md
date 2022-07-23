@@ -2,7 +2,7 @@
 
 An `Iter::map` operation might fail, for example:
 
-```rust,editable
+```rust
 fn main() {
     let strings = vec!["tofu", "93", "18"];
     let numbers: Vec<_> = strings
@@ -19,7 +19,7 @@ Let's step through strategies for handling this.
 
 `filter_map` calls a function and filters out the results that are `None`.
 
-```rust,editable
+```rust
 fn main() {
     let strings = vec!["tofu", "93", "18"];
     let numbers: Vec<_> = strings
@@ -35,7 +35,7 @@ fn main() {
 `map_err` calls a function with the error, so by adding that to the previous
 `filter_map` solution we can save them off to the side while iterating.
 
-```rust,editable
+```rust
 fn main() {
     let strings = vec!["42", "tofu", "93", "999", "18"];
     let mut errors = vec![];
@@ -55,7 +55,7 @@ fn main() {
 can be turned into a result with a vector (`Result<Vec<T>, E>`). Once an
 `Result::Err` is found, the iteration will terminate.
 
-```rust,editable
+```rust
 fn main() {
     let strings = vec!["tofu", "93", "18"];
     let numbers: Result<Vec<_>, _> = strings
@@ -70,7 +70,7 @@ This same technique can be used with `Option`.
 
 ## Collect all valid values and failures with `partition()`
 
-```rust,editable
+```rust
 fn main() {
     let strings = vec!["tofu", "93", "18"];
     let (numbers, errors): (Vec<_>, Vec<_>) = strings
@@ -85,7 +85,7 @@ fn main() {
 When you look at the results, you'll note that everything is still wrapped in
 `Result`.  A little more boilerplate is needed for this.
 
-```rust,editable
+```rust
 fn main() {
     let strings = vec!["tofu", "93", "18"];
     let (numbers, errors): (Vec<_>, Vec<_>) = strings

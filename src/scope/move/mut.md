@@ -2,7 +2,7 @@
 
 Mutability of data can be changed when ownership is transferred.
 
-```rust,editable
+```rust
 fn main() {
     let immutable_box = Box::new(5u32);
 

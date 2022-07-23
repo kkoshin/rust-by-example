@@ -7,7 +7,7 @@ trait for the type. Rather than doing so directly, you should implement the
 [`fmt::Display`][Display] trait which automagically provides [`ToString`] and
 also allows printing the type as discussed in the section on [`print!`][print].
 
-```rust,editable
+```rust
 use std::fmt;
 
 struct Circle {
@@ -38,7 +38,7 @@ trait is implemented for that type. This is implemented for numerous types
 within the standard library. To obtain this functionality on a user defined type
 simply implement the [`FromStr`] trait for that type.
 
-```rust,editable
+```rust
 fn main() {
     let parsed: i32 = "5".parse().unwrap();
     let turbo_parsed = "10".parse::<i32>().unwrap();

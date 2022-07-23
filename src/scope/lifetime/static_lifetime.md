@@ -3,7 +3,7 @@
 Rust has a few reserved lifetime names. One of those is `'static`. You
 might encounter it in two situations:
 
-```rust, editable
+```rust
 // A reference with 'static lifetime:
 let s: &'static str = "hello world";
 
@@ -28,7 +28,7 @@ are stored in the read-only memory of the binary:
 
 See the following example for a display of each method:
 
-```rust,editable
+```rust
 // Make a constant with `'static` lifetime.
 static NUM: i32 = 18;
 
@@ -72,7 +72,7 @@ It's important to understand this means that any owned data always passes
 a `'static` lifetime bound, but a reference to that owned data generally
 does not:
 
-```rust,editable,compile_fail
+```rust
 use std::fmt::Debug;
 
 fn print_it( input: impl Debug + 'static ) {

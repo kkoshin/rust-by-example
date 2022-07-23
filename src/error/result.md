@@ -21,7 +21,7 @@ be possible to parse a string into the other type, so `parse()` returns a
 
 Let's see what happens when we successfully and unsuccessfully `parse()` a string:
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn multiply(first_number_str: &str, second_number_str: &str) -> i32 {
     // Let's try using `unwrap()` to get the number out. Will it bite us?
     let first_number = first_number_str.parse::<i32>().unwrap();
@@ -61,7 +61,7 @@ occurs within the `main` function it will return an error code and print a debug
 representation of the error (using the [`Debug`] trait). The following example
 shows such a scenario and touches on aspects covered in [the following section].
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 fn main() -> Result<(), ParseIntError> {

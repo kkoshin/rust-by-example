@@ -3,7 +3,7 @@
 Of course `trait`s can also be generic. Here we define one which reimplements
 the `Drop` `trait` as a generic method to `drop` itself and an input.
 
-```rust,editable
+```rust
 // Non-copyable types.
 struct Empty;
 struct Null;

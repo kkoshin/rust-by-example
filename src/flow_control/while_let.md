@@ -30,7 +30,7 @@ loop {
 
 Using `while let` makes this sequence much nicer:
 
-```rust,editable
+```rust
 fn main() {
     // Make `optional` of type `Option<i32>`
     let mut optional = Some(0);

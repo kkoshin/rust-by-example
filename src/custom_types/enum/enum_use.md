@@ -2,7 +2,7 @@
 
 The `use` declaration can be used so manual scoping isn't needed:
 
-```rust,editable
+```rust
 // An attribute to hide warnings for unused code.
 #![allow(dead_code)]
 

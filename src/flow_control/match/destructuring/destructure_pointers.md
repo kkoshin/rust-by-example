@@ -7,7 +7,7 @@ differently from languages like C/C++.
  * Dereferencing uses `*`
  * Destructuring uses `&`, `ref`, and `ref mut`
 
-```rust,editable
+```rust
 fn main() {
     // Assign a reference of type `i32`. The `&` signifies there
     // is a reference being assigned.

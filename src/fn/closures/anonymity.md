@@ -24,7 +24,7 @@ generics. However, an unbounded type parameter `<T>` would still be ambiguous
 and not be allowed. Thus, bounding by one of the `traits`: `Fn`, `FnMut`, or
 `FnOnce` (which it implements) is sufficient to specify its type.
 
-```rust,editable
+```rust
 // `F` must implement `Fn` for a closure which takes no
 // inputs and returns nothing - exactly what is required
 // for `print`.

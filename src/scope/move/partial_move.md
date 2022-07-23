@@ -8,7 +8,7 @@ such a case, the parent variable cannot be used afterwards as a
 whole, however the parts that are only referenced (and not moved) 
 can still be used.
 
-```rust,editable
+```rust
 fn main() {
     #[derive(Debug)]
     struct Person {

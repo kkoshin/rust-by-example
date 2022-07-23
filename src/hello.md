@@ -2,7 +2,7 @@
 
 This is the source code of the traditional Hello World program.
 
-```rust,editable
+```rust
 // This is a comment, and is ignored by the compiler
 // You can test this code by clicking the "Run" button over there ->
 // or if you prefer to use your keyboard, you can use the "Ctrl + Enter" shortcut

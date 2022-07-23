@@ -15,7 +15,7 @@ helper [macros][macros]:
 * `assert_eq!(left, right)` and `assert_ne!(left, right)` - testing left and
   right expressions for equality and inequality respectively.
 
-```rust,ignore
+```rust
 pub fn add(a: i32, b: i32) -> i32 {
     a + b
 }
@@ -75,7 +75,7 @@ None of the previous unit test examples had a return type. But in Rust 2018,
 your unit tests can return `Result<()>`, which lets you use `?` in them! This
 can make them much more concise.
 
-```rust,editable
+```rust
 fn sqrt(number: f64) -> Result<f64, String> {
     if number >= 0.0 {
         Ok(number.powf(0.5))
@@ -106,7 +106,7 @@ To check functions that should panic under certain circumstances, use attribute
 the text of the panic message. If your function can panic in multiple ways, it helps
 make sure your test is testing the correct panic.
 
-```rust,ignore
+```rust
 pub fn divide_non_zero_result(a: u32, b: u32) -> u32 {
     if b == 0 {
         panic!("Divide-by-zero error");

@@ -27,7 +27,7 @@ allowed.
 In the following example, try swapping the usage of `Fn`, `FnMut`, and
 `FnOnce` to see what happens:
 
-```rust,editable
+```rust
 // A function which takes a closure as an argument and calls it.
 // <F> denotes that F is a "Generic type parameter"
 fn apply<F>(f: F) where

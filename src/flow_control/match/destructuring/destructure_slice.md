@@ -2,7 +2,7 @@
 
 Like tuples, arrays and slices can be destructured this way:
 
-```rust,editable
+```rust
 fn main() {
     // Try changing the values in the array, or make it a slice!
     let array = [1, -2, 6];

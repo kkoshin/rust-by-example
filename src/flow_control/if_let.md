@@ -22,7 +22,7 @@ match optional {
 `if let` is cleaner for this use case and in addition allows various
 failure options to be specified:
 
-```rust,editable
+```rust
 fn main() {
     // All have type `Option<i32>`
     let number = Some(7);
@@ -61,7 +61,7 @@ fn main() {
 
 In the same way, `if let` can be used to match any enum value:
 
-```rust,editable
+```rust
 // Our example enum
 enum Foo {
     Bar,
@@ -103,7 +103,7 @@ Another benefit is that `if let` allows us to match non-parameterized enum varia
 
 Would you like a challenge? Fix the following example to use `if let`:
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 // This enum purposely neither implements nor derives PartialEq.
 // That is why comparing Foo::Bar == a fails below.
 enum Foo {Bar}

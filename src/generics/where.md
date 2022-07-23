@@ -9,7 +9,7 @@ Some cases that a `where` clause is useful:
 
 * When specifying generic types and bounds separately is clearer:
 
-```rust,ignore
+```rust
 impl <A: TraitB + TraitC, D: TraitE + TraitF> MyTrait<A, D> for YourType {}
 
 // Expressing bounds with a `where` clause
@@ -21,7 +21,7 @@ impl <A, D> MyTrait<A, D> for YourType where
 * When using a `where` clause is more expressive than using normal syntax. 
 The `impl` in this example cannot be directly expressed without a `where` clause:
 
-```rust,editable
+```rust
 use std::fmt::Debug;
 
 trait PrintInOption {

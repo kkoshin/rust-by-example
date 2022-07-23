@@ -2,7 +2,7 @@
 
 An `enum` is destructured similarly:
 
-```rust,editable
+```rust
 // `allow` required to silence warnings because only
 // one variant is used.
 #[allow(dead_code)]

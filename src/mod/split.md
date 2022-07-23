@@ -15,7 +15,7 @@ $ tree .
 
 In `split.rs`:
 
-```rust,ignore
+```rust
 // This declaration will look for a file named `my.rs` and will
 // insert its contents inside a module named `my` under this scope
 mod my;
@@ -38,7 +38,7 @@ fn main() {
 
 In `my.rs`:
 
-```rust,ignore
+```rust
 // Similarly `mod inaccessible` and `mod nested` will locate the `nested.rs`
 // and `inaccessible.rs` files and insert them here under their respective
 // modules
@@ -62,7 +62,7 @@ pub fn indirect_access() {
 
 In `my/nested.rs`:
 
-```rust,ignore
+```rust
 pub fn function() {
     println!("called `my::nested::function()`");
 }
@@ -75,7 +75,7 @@ fn private_function() {
 
 In `my/inaccessible.rs`:
 
-```rust,ignore
+```rust
 #[allow(dead_code)]
 pub fn public_function() {
     println!("called `my::inaccessible::public_function()`");

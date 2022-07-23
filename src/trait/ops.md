@@ -8,7 +8,7 @@ trait. Hence, the `+` operator can be used by any implementor of the `Add` trait
 
 A list of the traits, such as `Add`, that overload operators can be found in [`core::ops`][ops].
 
-```rust,editable
+```rust
 use std::ops;
 
 struct Foo;

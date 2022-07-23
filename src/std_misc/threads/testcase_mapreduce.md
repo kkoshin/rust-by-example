@@ -21,7 +21,7 @@ only passing read-only references, and that thus no unsafety or data races can o
 we're `move`-ing the data segments into the thread, Rust will also ensure the data is kept alive
 until the threads exit, so no dangling pointers occur.
 
-```rust,editable
+```rust
 use std::thread;
 
 // This is the `main` thread

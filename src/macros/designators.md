@@ -3,7 +3,7 @@
 The arguments of a macro are prefixed by a dollar sign `$` and type annotated
 with a *designator*:
 
-```rust,editable
+```rust
 macro_rules! create_function {
     // This macro takes an argument of designator `ident` and
     // creates a function named `$func_name`.

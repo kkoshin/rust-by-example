@@ -4,7 +4,7 @@ The `std::Child` struct represents a running child process, and exposes the
 `stdin`, `stdout` and `stderr` handles for interaction with the underlying
 process via pipes.
 
-```rust,ignore
+```rust
 use std::io::prelude::*;
 use std::process::{Command, Stdio};
 

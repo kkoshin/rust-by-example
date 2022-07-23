@@ -14,7 +14,7 @@ impl GenericVal<S> {} // Specify `S` as defined above
 impl<T> GenericVal<T> {}
 ```
 
-```rust,editable
+```rust
 struct Val {
     val: f64,
 }

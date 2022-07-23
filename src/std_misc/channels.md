@@ -4,7 +4,7 @@ Rust provides asynchronous `channels` for communication between threads. Channel
 allow a unidirectional flow of information between two end-points: the
 `Sender` and the `Receiver`.
 
-```rust,editable
+```rust
 use std::sync::mpsc::{Sender, Receiver};
 use std::sync::mpsc;
 use std::thread;

@@ -16,7 +16,7 @@ integer, and the `i32` suffix to indicate that it's a signed 32-bit integer.
 The operators available and their precedence [in Rust][rust op-prec] are similar to other
 [C-like languages][op-prec].
 
-```rust,editable
+```rust
 fn main() {
     // Integer addition
     println!("1 + 2 = {}", 1u32 + 2);

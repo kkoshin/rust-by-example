@@ -6,7 +6,7 @@ Reference count of an `Rc` increases by 1 whenever an `Rc` is cloned, and decrea
 
 Cloning an `Rc` never performs a deep copy. Cloning creates just another pointer to the wrapped value, and increments the count.
 
-```rust,editable
+```rust
 use std::rc::Rc;
 
 fn main() {

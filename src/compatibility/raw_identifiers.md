@@ -13,7 +13,7 @@ exports a function named `try`. This keyword is reserved for a new feature in
 the 2018 edition, so without raw identifiers, we would have no way to name the
 function.
 
-```rust,ignore
+```rust
 extern crate foo;
 
 fn main() {
@@ -33,7 +33,7 @@ error: expected identifier, found keyword `try`
 
 You can write this with a raw identifier:
 
-```rust,ignore
+```rust
 extern crate foo;
 
 fn main() {

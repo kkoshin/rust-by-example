@@ -15,7 +15,7 @@ Rust allows us to define our own error types. In general, a "good" error type:
     - Bad: `Err("+ cannot be used here".to_owned())`
 * Composes well with other errors
 
-```rust,editable
+```rust
 use std::fmt;
 
 type Result<T> = std::result::Result<T, DoubleError>;

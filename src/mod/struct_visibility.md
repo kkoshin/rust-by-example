@@ -5,7 +5,7 @@ defaults to private, and can be overridden with the `pub` modifier. This
 visibility only matters when a struct is accessed from outside the module 
 where it is defined, and has the goal of hiding information (encapsulation).
 
-```rust,editable
+```rust
 mod my {
     // A public struct with a public field of generic type `T`
     pub struct OpenBox<T> {

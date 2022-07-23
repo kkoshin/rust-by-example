@@ -8,7 +8,7 @@ including global. Both require explicit type annotation:
   The static lifetime is inferred and does not have to be specified.
   Accessing or modifying a mutable static variable is [`unsafe`][unsafe].
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 // Globals are declared outside all other scopes.
 static LANGUAGE: &str = "Rust";
 const THRESHOLD: i32 = 10;

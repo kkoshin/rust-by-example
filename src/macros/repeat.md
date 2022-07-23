@@ -8,7 +8,7 @@ In the following example, surrounding the matcher with `$(...),+` will
 match one or more expression, separated by commas.
 Also note that the semicolon is optional on the last case.
 
-```rust,editable
+```rust
 // `find_min!` will calculate the minimum of any number of arguments.
 macro_rules! find_min {
     // Base case:

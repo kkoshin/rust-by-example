@@ -3,7 +3,7 @@
 When data is bound by the same name immutably, it also *freezes*. *Frozen* data can't be 
 modified until the immutable binding goes out of scope:
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     let mut _mutable_integer = 7i32;
 

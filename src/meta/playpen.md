@@ -6,7 +6,7 @@ The [Rust Playpen](https://github.com/rust-lang/rust-playpen) is a way to experi
 
 In [`mdbook`][mdbook], you can make code examples playable and editable.
 
-```rust,editable
+```rust
 fn main() {
     println!("Hello World!");
 }
@@ -15,7 +15,7 @@ fn main() {
 This allows the reader to both run your code sample, but also modify and tweak it. The key here is the adding the word `editable` to your codefence block separated by a comma.
 
 ````markdown
-```rust,editable
+```rust
 //...place your code here
 ```
 ````
@@ -23,7 +23,7 @@ This allows the reader to both run your code sample, but also modify and tweak i
 Additionally, you can add `ignore` if you want `mdbook` to skip your code when it builds and tests.
 
 ````markdown
-```rust,editable,ignore
+```rust
 //...place your code here
 ```
 ````

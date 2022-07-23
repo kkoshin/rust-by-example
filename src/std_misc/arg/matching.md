@@ -2,7 +2,7 @@
 
 Matching can be used to parse simple arguments:
 
-```rust,editable
+```rust
 use std::env;
 
 fn increase(number: i32) {

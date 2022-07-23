@@ -7,7 +7,7 @@ annotation burden.
 
 Values (like literals) can be bound to variables, using the `let` binding.
 
-```rust,editable
+```rust
 fn main() {
     let an_integer = 1u32;
     let a_boolean = true;

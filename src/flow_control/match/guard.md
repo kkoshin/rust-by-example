@@ -2,7 +2,7 @@
 
 A `match` *guard* can be added to filter the arm.
 
-```rust,editable
+```rust
 enum Temperature {
     Celsius(i32),
     Farenheit(i32),
@@ -26,7 +26,7 @@ fn main() {
 Note that the compiler won't take guard conditions into account when checking
 if all patterns are covered by the match expression.
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     let number: u8 = 4;
 

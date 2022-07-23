@@ -12,7 +12,7 @@ this is known as a *move*.
 After moving resources, the previous owner can no longer be used. This avoids
 creating dangling pointers.
 
-```rust,editable
+```rust
 // This function takes ownership of the heap allocated memory
 fn destroy_box(c: Box<i32>) {
     println!("Destroying a box that contains {}", c);

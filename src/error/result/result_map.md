@@ -12,7 +12,7 @@ specified as [`ParseIntError`][parse_int_error].
 In the example below, the straightforward `match` statement leads to code
 that is overall more cumbersome.
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 // With the return type rewritten, we use pattern matching without `unwrap()`.
@@ -51,7 +51,7 @@ fn main() {
 Luckily, `Option`'s `map`, `and_then`, and many other combinators are also
 implemented for `Result`. [`Result`][result] contains a complete listing.
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 // As with `Option`, we can use combinators such as `map()`.

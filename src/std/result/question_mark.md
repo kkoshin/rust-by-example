@@ -6,7 +6,7 @@ returning a `Result`, and is equivalent to a match expression, where the
 `Err(err)` branch expands to an early `return Err(From::from(err))`, and the `Ok(ok)`
 branch expands to an `ok` expression.
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 mod checked {
     #[derive(Debug)]
     enum MathError {

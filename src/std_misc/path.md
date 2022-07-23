@@ -16,7 +16,7 @@ Note that a `Path` is *not* internally represented as an UTF-8 string, but
 instead is stored as a vector of bytes (`Vec<u8>`). Therefore, converting a
 `Path` to a `&str` is *not* free and may fail (an `Option` is returned).
 
-```rust,editable
+```rust
 use std::path::Path;
 
 fn main() {

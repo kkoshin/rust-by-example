@@ -5,7 +5,7 @@ type of the value expression
 during an initialization. It also looks at how the variable is used afterwards 
 to infer its type. Here's an advanced example of type inference:
 
-```rust,editable
+```rust
 fn main() {
     // Because of the annotation, the compiler knows that `elem` has type u8.
     let elem = 5u8;

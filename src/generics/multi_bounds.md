@@ -3,7 +3,7 @@
 Multiple bounds for a single type can be applied with a `+`. Like normal, different types are
 separated with `,`.
 
-```rust,editable
+```rust
 use std::fmt::{Debug, Display};
 
 fn compare_prints<T: Debug + Display>(t: &T) {

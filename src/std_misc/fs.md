@@ -2,7 +2,7 @@
 
 The `std::fs` module contains several functions that deal with the filesystem.
 
-```rust,ignore
+```rust
 use std::fs;
 use std::fs::{File, OpenOptions};
 use std::io;
@@ -130,7 +130,7 @@ a
 
 An alternative way to define the function `cat` is with `?` notation:
 
-```rust,ignore
+```rust
 fn cat(path: &Path) -> io::Result<String> {
     let mut f = File::open(path)?;
     let mut s = String::new();

@@ -4,7 +4,7 @@ The compiler provides a `dead_code`
 [*lint*][lint] that will warn
 about unused functions. An *attribute* can be used to disable the lint.
 
-```rust,editable
+```rust
 fn used_function() {}
 
 // `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint

@@ -6,7 +6,7 @@ format string.
 
 We can extend our `calculate!` macro from the previous section to be variadic:
 
-```rust,editable
+```rust
 macro_rules! calculate {
     // The pattern for a single `eval`
     (eval $e:expr) => {

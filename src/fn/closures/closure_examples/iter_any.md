@@ -4,7 +4,7 @@
 `true` if any element satisfies the predicate. Otherwise `false`. Its
 signature:
 
-```rust,ignore
+```rust
 pub trait Iterator {
     // The type being iterated over.
     type Item;
@@ -19,7 +19,7 @@ pub trait Iterator {
 }
 ```
 
-```rust,editable
+```rust
 fn main() {
     let vec1 = vec![1, 2, 3];
     let vec2 = vec![4, 5, 6];

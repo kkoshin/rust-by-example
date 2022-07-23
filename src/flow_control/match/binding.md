@@ -4,7 +4,7 @@ Indirectly accessing a variable makes it impossible to branch and use that
 variable without re-binding. `match` provides the `@` sigil for binding values to
 names:
 
-```rust,editable
+```rust
 // A function `age` which returns a `u32`.
 fn age() -> u32 {
     15
@@ -28,7 +28,7 @@ fn main() {
 
 You can also use binding to "destructure" `enum` variants, such as `Option`:
 
-```rust,editable
+```rust
 fn some_number() -> Option<u32> {
     Some(42)
 }

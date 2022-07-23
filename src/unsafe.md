@@ -18,7 +18,7 @@ always safe because they are guaranteed to point to valid data due to the
 borrow checker. Dereferencing a raw pointer can only be done through an unsafe
 block.
 
-```rust,editable
+```rust
 fn main() {
     let raw_p: *const u32 = &10;
 
@@ -34,7 +34,7 @@ responsibility to ensure correctness instead of the compiler's. One example
 of this is [`std::slice::from_raw_parts`] which will create a slice given a
 pointer to the first element and a length.
 
-```rust,editable
+```rust
 use std::slice;
 
 fn main() {

@@ -8,7 +8,7 @@ That is, we can simply stop executing the function and return the error if
 one occurs. For some, this form of code can be easier to both read and
 write. Consider this version of the previous example, rewritten using early returns:
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 fn multiply(first_number_str: &str, second_number_str: &str) -> Result<i32, ParseIntError> {

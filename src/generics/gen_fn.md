@@ -11,7 +11,7 @@ the necessary type parameters.
 A function call with explicitly specified type parameters looks like:
 `fun::<A, B, ...>()`.
 
-```rust,editable
+```rust
 struct A;          // Concrete type `A`.
 struct S(A);       // Concrete type `S`.
 struct SGen<T>(T); // Generic type `SGen`.

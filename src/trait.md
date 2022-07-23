@@ -8,7 +8,7 @@ we define `Animal`, a group of methods. The `Animal` `trait` is
 then implemented for the `Sheep` data type, allowing the use of 
 methods from `Animal` with a `Sheep`.
 
-```rust,editable
+```rust
 struct Sheep { naked: bool, name: &'static str }
 
 trait Animal {

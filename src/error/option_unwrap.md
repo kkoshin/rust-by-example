@@ -23,7 +23,7 @@ but `unwrap` otherwise leaves us with a less meaningful output than explicit
 handling. In the following example, explicit handling yields a more
 controlled result while retaining the option to `panic` if desired.
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 // The adult has seen it all, and can handle any drink well.
 // All drinks are handled explicitly using `match`.
 fn give_adult(drink: Option<&str>) {

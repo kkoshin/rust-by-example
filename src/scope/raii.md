@@ -8,7 +8,7 @@ scope, its destructor is called and its owned resources are freed.
 This behavior shields against *resource leak* bugs, so you'll never have to
 manually free memory or worry about memory leaks again! Here's a quick showcase:
 
-```rust,editable
+```rust
 // raii.rs
 fn create_box() {
     // Allocate an integer on the heap
@@ -71,7 +71,7 @@ you require its own destructor logic.
 Run the below example to see how the [`Drop`] trait works. When the variable in
 the `main` function goes out of scope the custom destructor will be invoked.
 
-```rust,editable
+```rust
 struct ToDrop;
 
 impl Drop for ToDrop {

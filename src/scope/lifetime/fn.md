@@ -10,7 +10,7 @@ Additionally, note that returning references without input is banned if it
 would result in returning references to invalid data. The following example shows
 off some valid forms of functions with lifetimes:
 
-```rust,editable
+```rust
 // One input reference with lifetime `'a` which must live
 // at least as long as the function.
 fn print_one<'a>(x: &'a i32) {

@@ -12,7 +12,7 @@ some of which include:
 All parse text in the same fashion. As a plus, Rust checks formatting
 correctness at compile time.
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     // In general, the `{}` will be automatically replaced with any
     // arguments. These will be stringified.

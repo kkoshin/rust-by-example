@@ -7,7 +7,7 @@ results. Rust provides the `?` operator for exactly this purpose.
 
 Using `?` on `write!` looks like this:
 
-```rust,ignore
+```rust
 // Try `write!` to see if it errors. If it errors, return
 // the error. Otherwise continue.
 write!(f, "{}", value)?;
@@ -16,7 +16,7 @@ write!(f, "{}", value)?;
 With `?` available, implementing `fmt::Display` for a `Vec` is
 straightforward:
 
-```rust,editable
+```rust
 use std::fmt; // Import the `fmt` module.
 
 // Define a structure named `List` containing a `Vec`.
@@ -54,7 +54,7 @@ fn main() {
 
 Try changing the program so that the index of each element in the vector is also printed. The new output should look like this:
 
-```rust,ignore
+```rust
 [0: 1, 1: 2, 2: 3]
 ```
 

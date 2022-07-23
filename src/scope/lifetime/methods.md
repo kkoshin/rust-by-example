@@ -2,7 +2,7 @@
 
 Methods are annotated similarly to functions:
 
-```rust,editable
+```rust
 struct Owner(i32);
 
 impl Owner {

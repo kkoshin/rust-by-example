@@ -5,7 +5,7 @@ use the `?` operator. If `x` is an `Option`, then evaluating `x?` will return
 the underlying value if `x` is `Some`, otherwise it will terminate whatever
 function is being executed and return `None`.
 
-```rust,editable
+```rust
 fn next_birthday(current_age: Option<u8>) -> Option<String> {
 	// If `current_age` is `None`, this returns `None`.
 	// If `current_age` is `Some`, the inner `u8` gets assigned to `next_age`
@@ -16,7 +16,7 @@ fn next_birthday(current_age: Option<u8>) -> Option<String> {
 
 You can chain many `?`s together to make your code much more readable.
 
-```rust,editable
+```rust
 struct Person {
     job: Option<Job>,
 }

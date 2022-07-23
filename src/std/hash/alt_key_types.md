@@ -26,7 +26,7 @@ This guide will not cover the specifics of implementing `Hash`.
 To play around with using a `struct` in `HashMap`, 
 let's try making a very simple user logon system:
 
-```rust,editable
+```rust
 use std::collections::HashMap;
 
 // Eq requires that you derive PartialEq on the type.

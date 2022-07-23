@@ -12,7 +12,7 @@ generic types for `fn difference()`. In practice, we want a way to express that
 `A` and `B` are determined by the *input* `C`. As you will see in the next 
 section, associated types provide exactly that capability.
 
-```rust,editable
+```rust
 struct Container(i32, i32);
 
 // A trait which checks if 2 items are stored inside of container.

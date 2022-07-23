@@ -176,7 +176,7 @@ Some instructions require that the operands be in a specific register.
 Therefore, Rust inline assembly provides some more specific constraint specifiers.
 While `reg` is generally available on any architecture, explicit registers are highly architecture specific. E.g. for x86 the general purpose registers `eax`, `ebx`, `ecx`, `edx`, `ebp`, `esi`, and `edi` among others can be addressed by their name.
 
-```rust,no_run
+```rust
 use std::arch::asm;
 
 let cmd = 0xd1;

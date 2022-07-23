@@ -6,7 +6,7 @@ However, there's an easy workaround. Instead of returning a trait object directl
 
 Rust tries to be as explicit as possible whenever it allocates memory on the heap. So if your function returns a pointer-to-trait-on-heap in this way, you need to write the return type with the `dyn` keyword, e.g. `Box<dyn Animal>`.
 
-```rust,editable
+```rust
 struct Sheep {}
 struct Cow {}
 

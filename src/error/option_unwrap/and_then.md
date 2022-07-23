@@ -12,7 +12,7 @@ In the following example, `cookable_v2()` results in an `Option<Food>`.
 Using `map()` instead of `and_then()` would have given an 
 `Option<Option<Food>>`, which is an invalid type for `eat()`.
 
-```rust,editable
+```rust
 #![allow(dead_code)]
 
 #[derive(Debug)] enum Food { CordonBleu, Steak, Sushi }

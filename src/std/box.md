@@ -8,7 +8,7 @@ is called, the inner object is destroyed, and the memory on the heap is freed.
 Boxed values can be dereferenced using the `*` operator; this removes one layer
 of indirection. 
 
-```rust,editable
+```rust
 use std::mem;
 
 #[allow(dead_code)]

@@ -28,7 +28,7 @@ fn main() {
 
 As opposed to this function, which will never return the control back to the caller.
 
-```rust,ignore
+```rust
 #![feature(never_type)]
 
 fn main() {

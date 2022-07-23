@@ -6,7 +6,7 @@ a reference pointer for the location of a value in the memory heap while
 increasing the reference counter. As it shares ownership between threads, when
 the last reference pointer to a value is out of scope, the variable is dropped.
 
-```rust,editable
+```rust
 use std::time::Duration;
 use std::sync::Arc;
 use std::thread;

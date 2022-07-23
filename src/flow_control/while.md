@@ -4,7 +4,7 @@ The `while` keyword can be used to run a loop while a condition is true.
 
 Let's write the infamous [FizzBuzz][fizzbuzz] using a `while` loop.
 
-```rust,editable
+```rust
 fn main() {
     // A counter variable
     let mut n = 1;

@@ -6,7 +6,7 @@ of a file.
 `File::open` expects a generic, `AsRef<Path>`.  That's what
 `read_lines()` expects as input.
 
-```rust,no_run
+```rust
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;

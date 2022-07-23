@@ -12,7 +12,7 @@ Closures can capture variables:
 They preferentially capture variables by reference and only go lower when
 required.
 
-```rust,editable
+```rust
 fn main() {
     use std::mem;
     
@@ -86,7 +86,7 @@ fn main() {
 Using `move` before vertical pipes forces closure
 to take ownership of captured variables:
 
-```rust,editable
+```rust
 fn main() {
     // `Vec` has non-copy semantics.
     let haystack = vec![1, 2, 3];

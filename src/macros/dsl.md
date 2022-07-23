@@ -8,7 +8,7 @@ some special functionality (within bounds).
 Suppose that I want to define a little calculator API. I would like to supply
 an expression and have the output printed to console.
 
-```rust,editable
+```rust
 macro_rules! calculate {
     (eval $e:expr) => {
         {

@@ -7,7 +7,7 @@ There are three types of structures ("structs") that can be created using the
 * The classic [C structs][c_struct]
 * Unit structs, which are field-less, are useful for generics.
 
-```rust,editable
+```rust
 // An attribute to hide warnings for unused code.
 #![allow(dead_code)]
 

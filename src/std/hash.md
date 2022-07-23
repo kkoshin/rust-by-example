@@ -11,7 +11,7 @@ You can create a HashMap with a certain starting capacity using
 `HashMap::with_capacity(uint)`, or use `HashMap::new()` to get a HashMap 
 with a default initial capacity (recommended).
 
-```rust,editable
+```rust
 use std::collections::HashMap;
 
 fn call(number: &str) -> &str {

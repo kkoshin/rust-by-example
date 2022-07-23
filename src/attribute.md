@@ -25,7 +25,7 @@ Attributes can take arguments with different syntaxes:
 
 Attributes can have multiple values and can be separated over multiple lines, too:
 
-```rust,ignore
+```rust
 #[attribute(value, value2)]
 
 

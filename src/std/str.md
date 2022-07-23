@@ -9,7 +9,7 @@ null terminated.
 `&str` is a slice (`&[u8]`) that always points to a valid UTF-8 sequence, and
 can be used to view into a `String`, just like `&[T]` is a view into `Vec<T>`.
 
-```rust,editable
+```rust
 fn main() {
     // (all the type annotations are superfluous)
     // A reference to a string allocated in read only memory
@@ -71,7 +71,7 @@ escape it with another one: `\\`
 
 String or character literal delimiters occuring within a literal must be escaped: `"\""`, `'\''`.
 
-```rust,editable
+```rust
 fn main() {
     // You can use escapes to write bytes by their hexadecimal values...
     let byte_escape = "I'm writing \x52\x75\x73\x74!";
@@ -96,7 +96,7 @@ fn main() {
 Sometimes there are just too many characters that need to be escaped or it's just
 much more convenient to write a string out as-is. This is where raw string literals come into play.
 
-```rust, editable
+```rust
 fn main() {
     let raw_str = r"Escapes don't work here: \x3F \u{211D}";
     println!("{}", raw_str);
@@ -115,7 +115,7 @@ fn main() {
 Want a string that's not UTF-8? (Remember, `str` and `String` must be valid UTF-8).
 Or maybe you want an array of bytes that's mostly text? Byte strings to the rescue!
 
-```rust, editable
+```rust
 use std::str;
 
 fn main() {

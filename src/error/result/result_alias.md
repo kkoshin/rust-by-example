@@ -11,7 +11,7 @@ can succinctly define *all* associated `Results`. This is so useful that the
 
 Here's a quick example to show off the syntax:
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 // Define a generic alias for a `Result` with the error type `ParseIntError`.

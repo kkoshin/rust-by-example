@@ -25,7 +25,7 @@ Variables can always be *type annotated*. Numbers may additionally be
 annotated via a *suffix* or *by default*. Integers default to `i32` and
 floats to `f64`. Note that Rust can also infer types from context.
 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     // Variables can be type annotated.
     let logical: bool = true;

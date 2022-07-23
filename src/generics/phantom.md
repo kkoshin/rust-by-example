@@ -11,7 +11,7 @@ In the following example, we combine [std::marker::PhantomData]
 with the phantom type parameter concept to create tuples containing
 different data types.
 
-```rust,editable
+```rust
 use std::marker::PhantomData;
 
 // A phantom tuple struct which is generic over `A` with hidden parameter `B`.

@@ -13,7 +13,7 @@ Upon finding an `Err`, there are two valid actions to take:
 instead of `panic`king on `Err`s. Let's see how we can simplify the earlier
 example that used combinators:
 
-```rust,editable
+```rust
 use std::num::ParseIntError;
 
 fn multiply(first_number_str: &str, second_number_str: &str) -> Result<i32, ParseIntError> {
@@ -43,7 +43,7 @@ The `?` operator is now recommended, but you may still find `try!` when looking
 at older code. The same `multiply` function from the previous example
 would look like this using `try!`:
 
-```rust,editable,edition2015
+```rust
 // To compile and run this example without errors, while using Cargo, change the value 
 // of the `edition` field, in the `[package]` section of the `Cargo.toml` file, to "2015".
 

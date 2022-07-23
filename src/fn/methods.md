@@ -5,7 +5,7 @@ associated functions, and methods. Associated functions are functions that
 are defined on a type generally, while methods are associated functions that are
 called on a particular instance of a type.
 
-```rust,editable
+```rust
 struct Point {
     x: f64,
     y: f64,

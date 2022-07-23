@@ -12,7 +12,7 @@ chained together for even more flexibility.
 In the following example, `process()` replaces all functions previous
 to it while staying compact.
 
-```rust,editable
+```rust
 #![allow(dead_code)]
 
 #[derive(Debug)] enum Food { Apple, Carrot, Potato }

@@ -7,7 +7,7 @@ copy of the resource as well.
 The [`Clone`][clone] trait helps us do exactly this. Most commonly, we can
 use the `.clone()` method defined by the `Clone` trait.
 
-```rust,editable
+```rust
 // A unit struct without resources
 #[derive(Debug, Clone, Copy)]
 struct Unit;

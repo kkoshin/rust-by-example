@@ -16,7 +16,7 @@ occur by value. This is required because any captures by reference would be
 dropped as soon as the function exited, leaving invalid references in the
 closure.
 
-```rust,editable
+```rust
 fn create_fn() -> impl Fn() {
     let text = "Fn".to_owned();
 

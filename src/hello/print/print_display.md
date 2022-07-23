@@ -43,7 +43,7 @@ generic cases.
 This is not a problem though because for any new *container* type which is
 *not* generic,`fmt::Display` can be implemented.
 
-```rust,editable
+```rust
 use std::fmt; // Import `fmt`
 
 // A structure holding two numbers. `Debug` will be derived so the results can

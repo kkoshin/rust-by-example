@@ -3,7 +3,7 @@
 Rust provides a mechanism for spawning native OS threads via the `spawn`
 function, the argument of this function is a moving closure.
 
-```rust,editable
+```rust
 use std::thread;
 
 const NTHREADS: u32 = 10;

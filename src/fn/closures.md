@@ -17,7 +17,7 @@ Other characteristics of closures include:
 * optional body delimination (`{}`) for a single expression (mandatory otherwise).
 * the ability to capture the outer environment variables.
 
-```rust,editable
+```rust
 fn main() {
     // Increment via closures and functions.
     fn function(i: i32) -> i32 { i + 1 }

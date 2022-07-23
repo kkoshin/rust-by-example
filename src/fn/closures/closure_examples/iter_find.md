@@ -4,7 +4,7 @@
 first value which satisfies some condition. If none of the values satisfy the 
 condition, it returns `None`. Its signature:
 
-```rust,ignore
+```rust
 pub trait Iterator {
     // The type being iterated over.
     type Item;
@@ -19,7 +19,7 @@ pub trait Iterator {
 }
 ```
 
-```rust,editable
+```rust
 fn main() {
     let vec1 = vec![1, 2, 3];
     let vec2 = vec![4, 5, 6];
@@ -49,7 +49,7 @@ fn main() {
 `Iterator::find` gives you a reference to the item. But if you want the _index_ of the
 item, use `Iterator::position`.
 
-```rust,editable
+```rust
 fn main() {
     let vec = vec![1, 9, 3, 3, 13, 2];
 

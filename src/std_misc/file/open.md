@@ -5,7 +5,7 @@ The `open` function can be used to open a file in read-only mode.
 A `File` owns a resource, the file descriptor and takes care of closing the
 file when it is `drop`ed.
 
-```rust,editable,ignore
+```rust
 use std::fs::File;
 use std::io::prelude::*;
 use std::path::Path;

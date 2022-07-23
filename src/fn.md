@@ -10,7 +10,7 @@ from within the function, even from inside loops or `if` statements.
 
 Let's rewrite FizzBuzz using functions!
 
-```rust,editable
+```rust
 // Unlike C/C++, there's no restriction on the order of function definitions
 fn main() {
     // We can use this function here, and define it somewhere later

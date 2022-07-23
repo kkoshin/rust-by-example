@@ -2,7 +2,7 @@
 
 Similarly, a `struct` can be destructured as shown:
 
-```rust,editable
+```rust
 fn main() {
     struct Foo {
         x: (u32, u32),

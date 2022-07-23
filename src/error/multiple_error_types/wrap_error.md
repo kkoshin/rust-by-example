@@ -2,7 +2,7 @@
 
 An alternative to boxing errors is to wrap them in your own error type.
 
-```rust,editable
+```rust
 use std::error;
 use std::error::Error;
 use std::num::ParseIntError;

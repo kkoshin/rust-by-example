@@ -10,7 +10,7 @@ in `T` must outlive `'a`.
 
 The example below shows the above syntax in action used after keyword `where`:
 
-```rust,editable
+```rust
 use std::fmt::Debug; // Trait to bound with.
 
 #[derive(Debug)]

@@ -11,7 +11,7 @@ manually implemented for any custom data type.
 The following example adds a print to console to the `drop` function to announce
 when it is called.
 
-```rust,editable
+```rust
 struct Droppable {
     name: &'static str,
 }

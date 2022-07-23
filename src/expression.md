@@ -2,7 +2,7 @@
 
 A Rust program is (mostly) made up of a series of statements:
 
-```rust,editable
+```rust
 fn main() {
     // statement
     // statement
@@ -13,7 +13,7 @@ fn main() {
 There are a few kinds of statements in Rust. The most common two are declaring
 a variable binding, and using a `;` with an expression:
 
-```rust,editable
+```rust
 fn main() {
     // variable binding
     let x = 5;
@@ -30,7 +30,7 @@ assignments. The last expression in the block will be assigned to the
 place expression such as a local variable. However, if the last expression of the block ends with a
 semicolon, the return value will be `()`.
 
-```rust,editable
+```rust
 fn main() {
     let x = 5u32;
 

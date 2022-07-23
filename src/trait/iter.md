@@ -10,7 +10,7 @@ defined (as in arrays and ranges).
 As a point of convenience for common situations, the `for` construct
 turns some collections into iterators using the [`.into_iter()`][intoiter] method.
 
-```rust,editable
+```rust
 struct Fibonacci {
     curr: u32,
     next: u32,

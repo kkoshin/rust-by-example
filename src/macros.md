@@ -10,7 +10,7 @@ unexpected precedence bugs.
 
 Macros are created using the `macro_rules!` macro.
 
-```rust,editable
+```rust
 // This is a simple macro named `say_hello`.
 macro_rules! say_hello {
     // `()` indicates that the macro takes no argument.

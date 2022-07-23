@@ -9,7 +9,7 @@ attributes have **no** effect whatsoever when using Cargo, the Rust package
 manager. Since Cargo is used for the majority of Rust projects, this means
 real-world uses of `crate_type` and `crate_name` are relatively limited.
 
-```rust,editable
+```rust
 // This crate is a library
 #![crate_type = "lib"]
 // The library is named "rary"

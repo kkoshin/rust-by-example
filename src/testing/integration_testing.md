@@ -9,7 +9,7 @@ Cargo looks for integration tests in `tests` directory next to `src`.
 
 File `src/lib.rs`:
 
-```rust,ignore
+```rust
 // Define this in a crate called `adder`.
 pub fn add(a: i32, b: i32) -> i32 {
     a + b
@@ -18,7 +18,7 @@ pub fn add(a: i32, b: i32) -> i32 {
 
 File with test: `tests/integration_test.rs`:
 
-```rust,ignore
+```rust
 #[test]
 fn test_add() {
     assert_eq!(adder::add(3, 2), 5);
@@ -53,7 +53,7 @@ functions, importing and using it within tests.
 
 File `tests/common.rs`:
 
-```rust,ignore
+```rust
 pub fn setup() {
     // some setup code, like creating required files/directories, starting
     // servers, etc.
@@ -62,7 +62,7 @@ pub fn setup() {
 
 File with test: `tests/integration_test.rs`
 
-```rust,ignore
+```rust
 // importing common module.
 mod common;
 

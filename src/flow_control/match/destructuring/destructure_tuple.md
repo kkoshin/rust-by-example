@@ -2,7 +2,7 @@
 
 Tuples can be destructured in a `match` as follows:
 
-```rust,editable
+```rust
 fn main() {
     let triple = (0, -2, 3);
     // TODO ^ Try different values for `triple`

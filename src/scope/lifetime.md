@@ -13,7 +13,7 @@ the scope of the borrow is determined by where the reference is used.
 In the following example and in the rest of this section, we will see how
 lifetimes relate to scopes, as well as how the two differ.
 
-```rust,editable
+```rust
 // Lifetimes are annotated below with lines denoting the creation
 // and destruction of each variable.
 // `i` has the longest lifetime because its scope entirely encloses 

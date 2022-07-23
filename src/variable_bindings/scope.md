@@ -2,7 +2,7 @@
 
 Variable bindings have a scope, and are constrained to live in a *block*. A
 block is a collection of statements enclosed by braces `{}`. 
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     // This binding lives in the main function
     let long_lived_binding = 1;
@@ -24,7 +24,7 @@ fn main() {
 }
 ```
 Also, [variable shadowing][variable-shadow] is allowed.
-```rust,editable,ignore,mdbook-runnable
+```rust
 fn main() {
     let shadowed_binding = 1;
 

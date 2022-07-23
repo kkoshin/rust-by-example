@@ -22,7 +22,7 @@ struct DebugPrintable(i32);
 
 All `std` library types are automatically printable with `{:?}` too:
 
-```rust,editable
+```rust
 // Derive the `fmt::Debug` implementation for `Structure`. `Structure`
 // is a structure which contains a single `i32`.
 #[derive(Debug)]
@@ -53,7 +53,7 @@ fn main() {
 So `fmt::Debug` definitely makes this printable but sacrifices some
 elegance. Rust also provides "pretty printing" with `{:#?}`.
 
-```rust,editable
+```rust
 #[derive(Debug)]
 struct Person<'a> {
     name: &'a str,

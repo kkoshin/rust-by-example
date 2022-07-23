@@ -16,7 +16,7 @@ generic type parameter is generic, and everything else is concrete (non-generic)
 For example, defining a *generic function* named `foo` that takes an argument
 `T` of any type:
 
-```rust,ignore
+```rust
 fn foo<T>(arg: T) { ... }
 ```
 
@@ -26,7 +26,7 @@ has previously been defined as a `struct`.
 
 This example shows some of the syntax in action:
 
-```rust,editable
+```rust
 // A concrete type `A`.
 struct A;
 

@@ -7,7 +7,7 @@ The type of unsuffixed numeric literals will depend on how they are used. If no
 constraint exists, the compiler will use `i32` for integers, and `f64` for
 floating-point numbers.
 
-```rust,editable
+```rust
 fn main() {
     // Suffixed literals, their types are known at initialization
     let x = 1u8;

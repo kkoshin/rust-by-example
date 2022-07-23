@@ -8,7 +8,7 @@ are common.
 The following code shows a few examples of elision. For a more comprehensive
 description of elision, see [lifetime elision][elision] in the book.
 
-```rust,editable
+```rust
 // `elided_input` and `annotated_input` essentially have identical signatures
 // because the lifetime of `elided_input` is inferred by the compiler:
 fn elided_input(x: &i32) {
