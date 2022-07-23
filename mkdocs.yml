@@ -6,7 +6,7 @@ site_description: ""
 site_author: Rust
 copyright: 'Copyright &copy; 2022 Rust'
 remote_branch: gh-pages
-edit_uri: edit/main/src/
+edit_uri: edit/master/src/
 docs_dir: src
 
 theme:
