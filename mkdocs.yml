@@ -26,7 +26,7 @@ theme:
   features:
     # - navigation.sections
     - navigation.top
-    - navigation.tabs
+    # - navigation.tabs
 
 #extra_css:
 #  - 'css/app.css'
